@@ -197,7 +197,7 @@ var _ = Describe("MetadataServiceOptions", framework.LabelCloudProviderSpecific,
 	})
 })
 
-var _ = Describe("CapacityReservationID", framework.LabelCloudProviderSpecific, framework.LabelProviderAWS, func() {
+var _ = Describe("CapacityReservationID", framework.LabelCloudProviderSpecific, framework.LabelProviderAWS, framework.LabelQeJobOnly, func() {
 	var client runtimeclient.Client
 	var gatherer *gatherer.StateGatherer
 	var ctx context.Context

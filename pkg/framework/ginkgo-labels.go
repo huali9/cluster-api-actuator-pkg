@@ -13,4 +13,5 @@ var (
 	LabelMachineHealthChecks   = ginkgo.Label("machine-health-checks")
 	LabelCloudProviderSpecific = ginkgo.Label("cloud-provider-specific")
 	LabelProviderAWS           = ginkgo.Label("AWS")
+	LabelQeJobOnly             = ginkgo.Label("QeJobOnly")
 )
